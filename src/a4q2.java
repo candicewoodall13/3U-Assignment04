@@ -21,8 +21,8 @@ public class a4q2 {
         //ask user for the measurement in inches they would like to convert
         System.out.println("please enter the measurement in inches you wish to convert to cm.");
         //let the user answer
-        int inches = input.nextInt();
+        double inches = input.nextDouble();
         //make the answer they put in multiply by 2.54 and then supply them with the answer
-        System.out.println( inches+ "inches is the same as" + inches*2.54 + "cm" );
+        System.out.println( inches+ "inches is the same as " + inches*2.54 + " cm" );
     }
 }

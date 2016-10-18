@@ -21,11 +21,12 @@ public class a4q3 {
         //ask user for the measurement in inches they would like to convert
         System.out.println("please enter 4 numbers on seperate lines");
         //let the user answer
-        int Firstnumber = input.nextInt();
-        int Secondnumber = input.nextInt();
-        int Thirdnumber = input.nextInt();
-        int Fourthnumber = input.nextInt();
+        double Firstnumber = input.nextDouble();
+        double Secondnumber = input.nextDouble();
+        double Thirdnumber = input.nextDouble();
+        double Fourthnumber = input.nextDouble();
         //
-        System.out.println(Firstnumber +", " + Secondnumber +", " + Thirdnumber + ", " + Fourthnumber );
+        System.out.println("Your numbers were " + Firstnumber +", " + Secondnumber +", " + Thirdnumber + ", and " + Fourthnumber );
+        
     }
 }
