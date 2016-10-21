@@ -68,11 +68,25 @@ public class a4q5 {
         double fifthmark = input.nextDouble();
         //
         //print test scores for user
-        System.out.println("Test scores for" +name);
+        System.out.println("Test scores for " +name);
         //create variable of first test percentage
         double firsttest = ((firstmark/firstoutof)*100);
         System.out.println("Test 1: " + firsttest + "%" );
-        
+        //create variable for second test percentage
+        double secondtest = ((secondmark/secondoutof)*100);
+        System.out.println("Test 2: " + secondtest + "%" );
+        //create variable for third test percentage
+        double thirdtest = ((thirdmark/thirdoutof)*100);
+        System.out.println("Test 3: " + thirdtest + "%" );
+        //create variable for fourth test percentage
+        double fourthtest = ((fourthmark/fourthoutof)*100);
+        System.out.println("Test 4: " + fourthtest + "%" );
+        //create variable for fifth test percentage
+        double fifthtest = ((fifthmark/fifthoutof)*100);
+        System.out.println("Test 5: " + fifthtest + "%" );
+        //get average of all set up a variable
+        double average = ((firsttest+secondtest+thirdtest+fourthtest+fifthtest)/5);
+        System.out.println("Overall average: "+ average+ "%");
         
     }
 }
