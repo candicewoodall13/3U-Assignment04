@@ -24,7 +24,7 @@ public class a4q8 {
         
         
         //loop forever
-        while(square<101)
+        while(square<100)
         {
             
         //ask user for sum of dice
@@ -34,12 +34,30 @@ public class a4q8 {
         //move to the right square
         square= square+roll;
 
-            
-            /*switch(square){
-                case: 29;
-                    square=34
-                            */
+            switch(square)
+            {
+                case 9: 
+                    square=34;
+                    break;
+                case 40: 
+                    square=64;
+                    break;
+                case 54: 
+                    square=19;
+                    break;
+                case 67: 
+                    square=86;
+                    break;
+                case 90: 
+                    square=48;
+                    break;
+                case 99:
+                    square=77;
+                    break;
+            }
             System.out.println("You are now on square " +square);
         }
+        //when square=100 print you win 
+        System.out.println("You Win!");
     }
 }
